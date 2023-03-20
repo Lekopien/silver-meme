@@ -1,3 +1,8 @@
 # silver-meme
 
-method takes a string s as input and splits it into separate words using the split method. It then uses the map method to iterate over each word in the array and capitalize the first letter of each word, except for the first word, which is left unchanged. Finally, it joins the words together using the join method. The with_index method is used to access the index of each word in the array, which is needed to determine whether or not to capitalize the first letter.
+we add the camelCase method to the String.prototype object by assigning it to a new function that takes no arguments. The function then splits the input string into an array of words using the split method, loops over each word and capitalizes the first letter using the charAt and toUpperCase methods, and finally joins the words back together without spaces using the join method.
+
+Note that by adding this method to the String.prototype object, we can now call the camelCase method on any string value in our code.
+
+
+
